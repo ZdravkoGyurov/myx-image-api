@@ -1,0 +1,12 @@
+host: localhost
+port: 8080
+server:
+  read_timeout: 30s
+  write_timeout: 30s
+  shutdown_timeout: 30s
+postgresql:
+  connect_timeout: 30s
+  request_timeout: 30s
+s3:
+  region: eu-central-1
+  endpoint: http://localhost:4566
